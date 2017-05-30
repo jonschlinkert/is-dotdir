@@ -25,5 +25,8 @@
   "devDependencies": {
     "mocha": "^2.2.5"
   },
-  "keywords": []
+  "keywords": [
+    "dotdir",
+    "is"
+  ]
 }
