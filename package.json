@@ -20,7 +20,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "dotdir-regex": "^0.1.0"
+    "dotdir-regex": "^1.0.1"
   },
   "devDependencies": {
     "gulp-format-md": "^0.1.12",
