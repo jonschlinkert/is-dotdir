@@ -23,10 +23,31 @@
     "dotdir-regex": "^0.1.0"
   },
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.4.2"
   },
   "keywords": [
     "dotdir",
     "is"
-  ]
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "is-dotfile",
+        "dotdir-regex",
+        "dotfile-regex"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
 }
