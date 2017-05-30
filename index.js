@@ -7,8 +7,8 @@
 
 'use strict';
 
-var re = require('dotdir-regex');
+var dotdirRegex = require('dotdir-regex');
 
-module.exports = function (str) {
-  return re().test(str);
+module.exports = function(str) {
+  return dotdirRegex().test(str);
 };
